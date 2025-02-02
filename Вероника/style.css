@@ -1,0 +1,38 @@
+body h1{
+	text-align: center;
+	color:darkred;
+	font-style: italic;
+	font-size: 45px;
+}
+h2{
+	text-align: center;
+	color:darkred;
+	font-style: italic;
+	font-size: 30px;
+}
+img.displayed{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 550px;
+    height: 550px;
+
+}
+li{
+	text-align: center;
+	color:brown;
+	font-style: italic;
+	font-size: 30px;
+	list-style-type: none;
+}
+.card{
+	background-color:rgb(231, 184, 169);
+}
+.card img:hover {	
+	transform: scale(1.1);
+	border-color: darkred;
+}
+.card img:active {
+	transform:scale(0.9);
+	border-color:darkred ;
+}
